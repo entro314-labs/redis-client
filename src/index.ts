@@ -1,8 +1,9 @@
 export {
-  EntrolyticsRedisClient,
-  log,
-  DELETED,
   CACHE_PREFIX,
-  type EntrolyticsRedisClientOptions,
   type CacheStats,
+  DELETED,
+  EntrolyticsRedisClient,
+  type EntrolyticsRedisClientOptions,
+  log,
+  type TTLOption,
 } from './EntrolyticsRedisClient';
